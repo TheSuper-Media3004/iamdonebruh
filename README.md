@@ -1,26 +1,22 @@
-# RAG MADE WITH OLLAMA + FASTAPI + CHROMADB(VECTOR DB)
+# RAG with Ollama + FastAPI + ChromaDB
 
+This project implements a **Retrieval-Augmented Generation (RAG)** pipeline using:
 
-**should ideally work with any document(specifically made for my need tbh)**
+- **Ollama** – local LLM inference
+- **FastAPI** – backend API
+- **ChromaDB** – vector database for embeddings
 
+The system is designed to work with **any document**, although it was primarily built for a specific use case.
 
+---
 
+# Installation
 
+## 1. Install Python Dependencies
 
-run the requirements.txt using uv or pip 
-'''
-uv add -r requirements.txt
-'''
+Install the required packages using **uv** or **pip**.
 
+### Using uv (recommended)
 
-please install ollama from here
-
-[OLLAMA](https://ollama.com/download/linux)
-
-
-
-create the database directory with
-'''bash
-mkdir chroma_db
-'''
-run the ingestion.py file cuz it needs to create embeddings, and 
+```bash
+uv pip install -r requirements.txt
