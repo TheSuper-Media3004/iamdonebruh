@@ -11,10 +11,7 @@ run the requirements.txt using uv or pip
 '''
 uv add -r requirements.txt
 '''
-or
-'''
-pip install -r requirements.txt
-'''
+
 
 please install ollama from here
 
