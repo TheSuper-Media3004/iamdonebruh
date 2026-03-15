@@ -8,11 +8,11 @@
 
 
 run the requirements.txt using uv or pip 
-'''bash
+'''
 uv add -r requirements.txt
 '''
 or
-'''bash
+'''
 pip install -r requirements.txt
 '''
 
