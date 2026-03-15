@@ -1,4 +1,4 @@
-#RAG MADE WITH OLLAMA + FASTAPI + CHROMADB(VECTOR DB)
+# RAG MADE WITH OLLAMA + FASTAPI + CHROMADB(VECTOR DB)
 
 
 **should ideally work with any document(specifically made for my need tbh)**
