@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+ai_python.pdf
+datascience_python.pdf
+stats_python.pdf
+# Vector database (generated)
+chroma_db/chroma.sqlite3
+chroma_db/fe9d81c5-8b12-466e-a13c-737d9cf81af5/data_level0.bin
+chroma_db/fe9d81c5-8b12-466e-a13c-737d9cf81af5/header.bin
+chroma_db/fe9d81c5-8b12-466e-a13c-737d9cf81af5/index_metadata.pickle
+chroma_db/fe9d81c5-8b12-466e-a13c-737d9cf81af5/length.bin
+chroma_db/fe9d81c5-8b12-466e-a13c-737d9cf81af5/link_lists.bin
+
+# Local documents
+data/docs
+
+# Virtual environments
+.venv/
+
+# Environment variables
+.env
