@@ -19,4 +19,6 @@ Install the required packages using **uv** or **pip**.
 ### Using uv (recommended)
 
 ```bash
-uv pip install -r requirements.txt
+uv add -r requirements.txt
+'''
+please
